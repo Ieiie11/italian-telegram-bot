@@ -1,0 +1,274 @@
+{
+  "银行": [
+    {
+      "italian": "bonifico",
+      "chinese": "银行转账",
+      "example_it": "Vorrei fare un bonifico.",
+      "example_zh": "我想做一笔银行转账。"
+    },
+    {
+      "italian": "conto",
+      "chinese": "账户；账单",
+      "example_it": "Ho un conto in questa banca.",
+      "example_zh": "我在这家银行有一个账户。"
+    },
+    {
+      "italian": "carta",
+      "chinese": "银行卡；卡；纸",
+      "example_it": "Posso pagare con la carta?",
+      "example_zh": "我可以用银行卡付款吗？"
+    },
+    {
+      "italian": "prelievo",
+      "chinese": "取款",
+      "example_it": "Devo fare un prelievo.",
+      "example_zh": "我需要取款。"
+    },
+    {
+      "italian": "versamento",
+      "chinese": "存款；缴款",
+      "example_it": "Vorrei fare un versamento.",
+      "example_zh": "我想存一笔钱。"
+    },
+    {
+      "italian": "sportello",
+      "chinese": "柜台；窗口",
+      "example_it": "Lo sportello è aperto fino alle quattro.",
+      "example_zh": "柜台开到四点。"
+    },
+    {
+      "italian": "bancomat",
+      "chinese": "自动取款机；借记卡",
+      "example_it": "C'è un bancomat qui vicino?",
+      "example_zh": "这附近有自动取款机吗？"
+    }
+  ],
+  "邮局": [
+    {
+      "italian": "raccomandata",
+      "chinese": "挂号信",
+      "example_it": "Devo spedire una raccomandata.",
+      "example_zh": "我需要寄一封挂号信。"
+    },
+    {
+      "italian": "pacco",
+      "chinese": "包裹",
+      "example_it": "Questo pacco è per la Cina.",
+      "example_zh": "这个包裹是寄往中国的。"
+    },
+    {
+      "italian": "spedire",
+      "chinese": "寄送",
+      "example_it": "Vorrei spedire questo pacco.",
+      "example_zh": "我想寄这个包裹。"
+    },
+    {
+      "italian": "ricevuta",
+      "chinese": "收据；回执",
+      "example_it": "Posso avere la ricevuta?",
+      "example_zh": "我可以拿收据吗？"
+    },
+    {
+      "italian": "francobollo",
+      "chinese": "邮票",
+      "example_it": "Mi serve un francobollo.",
+      "example_zh": "我需要一张邮票。"
+    },
+    {
+      "italian": "modulo",
+      "chinese": "表格",
+      "example_it": "Dove posso prendere il modulo?",
+      "example_zh": "我在哪里可以拿表格？"
+    }
+  ],
+  "移民局/居留": [
+    {
+      "italian": "permesso di soggiorno",
+      "chinese": "居留许可",
+      "example_it": "Devo rinnovare il permesso di soggiorno.",
+      "example_zh": "我需要续居留。"
+    },
+    {
+      "italian": "questura",
+      "chinese": "警察局；移民事务警局",
+      "example_it": "Ho un appuntamento in questura.",
+      "example_zh": "我在警察局有一个预约。"
+    },
+    {
+      "italian": "appuntamento",
+      "chinese": "预约",
+      "example_it": "Vorrei prendere un appuntamento.",
+      "example_zh": "我想预约。"
+    },
+    {
+      "italian": "documento",
+      "chinese": "文件；证件",
+      "example_it": "Mi manca un documento.",
+      "example_zh": "我少一个文件。"
+    },
+    {
+      "italian": "fototessera",
+      "chinese": "证件照",
+      "example_it": "Servono due fototessere.",
+      "example_zh": "需要两张证件照。"
+    },
+    {
+      "italian": "impronte",
+      "chinese": "指纹",
+      "example_it": "Oggi devo dare le impronte.",
+      "example_zh": "今天我需要录指纹。"
+    }
+  ],
+  "租房/物业": [
+    {
+      "italian": "affitto",
+      "chinese": "房租",
+      "example_it": "L'affitto si paga ogni mese.",
+      "example_zh": "房租每个月付。"
+    },
+    {
+      "italian": "spese condominiali",
+      "chinese": "物业费；公寓公共费用",
+      "example_it": "Le spese condominiali sono incluse?",
+      "example_zh": "物业费包含在内吗？"
+    },
+    {
+      "italian": "bolletta",
+      "chinese": "水电燃气等账单",
+      "example_it": "È arrivata la bolletta della luce.",
+      "example_zh": "电费账单来了。"
+    },
+    {
+      "italian": "riscaldamento",
+      "chinese": "暖气；供暖",
+      "example_it": "Il riscaldamento funziona bene.",
+      "example_zh": "暖气运行得很好。"
+    },
+    {
+      "italian": "contratto",
+      "chinese": "合同",
+      "example_it": "Vorrei leggere il contratto.",
+      "example_zh": "我想看一下合同。"
+    },
+    {
+      "italian": "cauzione",
+      "chinese": "押金",
+      "example_it": "Quanto costa la cauzione?",
+      "example_zh": "押金多少钱？"
+    }
+  ],
+  "宝宝/家庭": [
+    {
+      "italian": "pannolino",
+      "chinese": "尿不湿；纸尿裤",
+      "example_it": "Devo comprare i pannolini.",
+      "example_zh": "我需要买纸尿裤。"
+    },
+    {
+      "italian": "latte",
+      "chinese": "牛奶；奶",
+      "example_it": "Il bambino beve il latte.",
+      "example_zh": "宝宝喝奶。"
+    },
+    {
+      "italian": "passeggino",
+      "chinese": "婴儿推车",
+      "example_it": "Metto il bambino nel passeggino.",
+      "example_zh": "我把宝宝放进婴儿推车里。"
+    },
+    {
+      "italian": "pediatra",
+      "chinese": "儿科医生",
+      "example_it": "Devo chiamare il pediatra.",
+      "example_zh": "我需要给儿科医生打电话。"
+    },
+    {
+      "italian": "ciuccio",
+      "chinese": "安抚奶嘴",
+      "example_it": "Dov'è il ciuccio?",
+      "example_zh": "安抚奶嘴在哪里？"
+    },
+    {
+      "italian": "nanna",
+      "chinese": "睡觉觉；宝宝睡觉",
+      "example_it": "È ora della nanna.",
+      "example_zh": "该睡觉了。"
+    }
+  ],
+  "超市/餐厅": [
+    {
+      "italian": "scontrino",
+      "chinese": "小票",
+      "example_it": "Posso avere lo scontrino?",
+      "example_zh": "我可以要小票吗？"
+    },
+    {
+      "italian": "contanti",
+      "chinese": "现金",
+      "example_it": "Pago in contanti.",
+      "example_zh": "我用现金付款。"
+    },
+    {
+      "italian": "carta",
+      "chinese": "银行卡；卡",
+      "example_it": "Accettate la carta?",
+      "example_zh": "你们接受银行卡吗？"
+    },
+    {
+      "italian": "panino",
+      "chinese": "三明治；夹心面包",
+      "example_it": "Vorrei un panino con prosciutto.",
+      "example_zh": "我想要一个火腿三明治。"
+    },
+    {
+      "italian": "sacchetto",
+      "chinese": "购物袋；小袋子",
+      "example_it": "Mi dà un sacchetto, per favore?",
+      "example_zh": "请给我一个袋子好吗？"
+    },
+    {
+      "italian": "coperto",
+      "chinese": "餐位费",
+      "example_it": "Il coperto è incluso?",
+      "example_zh": "餐位费包含了吗？"
+    }
+  ],
+  "看病": [
+    {
+      "italian": "ricetta",
+      "chinese": "处方",
+      "example_it": "Il medico mi ha dato una ricetta.",
+      "example_zh": "医生给了我一张处方。"
+    },
+    {
+      "italian": "visita",
+      "chinese": "看诊；检查",
+      "example_it": "Ho una visita domani mattina.",
+      "example_zh": "我明天早上有一次看诊。"
+    },
+    {
+      "italian": "farmacia",
+      "chinese": "药房",
+      "example_it": "Dov'è la farmacia più vicina?",
+      "example_zh": "最近的药房在哪里？"
+    },
+    {
+      "italian": "appuntamento",
+      "chinese": "预约",
+      "example_it": "Vorrei fissare un appuntamento.",
+      "example_zh": "我想约一个时间。"
+    },
+    {
+      "italian": "tessera sanitaria",
+      "chinese": "医疗卡",
+      "example_it": "Ho dimenticato la tessera sanitaria.",
+      "example_zh": "我忘带医疗卡了。"
+    },
+    {
+      "italian": "febbre",
+      "chinese": "发烧",
+      "example_it": "Mio figlio ha la febbre.",
+      "example_zh": "我儿子发烧了。"
+    }
+  ]
+}
