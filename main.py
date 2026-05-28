@@ -178,7 +178,7 @@ def send_daily_lesson(chat_id: Optional[str] = None) -> None:
     print(f"Sent daily Italian lesson for topic: {topic}")
 
 
-def poll_start_messages() -> None:
+def poll_telegram_messages() -> None:
     token = os.getenv("TELEGRAM_BOT_TOKEN")
     if not token:
         raise RuntimeError("Please set TELEGRAM_BOT_TOKEN in your .env file.")
@@ -220,6 +220,16 @@ def poll_start_messages() -> None:
             send_telegram_message("你好！意大利语学习机器人已启动。", chat_id=chat_id_text)
             send_daily_lesson(chat_id=chat_id_text)
             print("收到 /start，已发送测试推送。")
+        elif text == "1" and chat_id:
+            chat_id_text = str(chat_id)
+            update_env_chat_id(chat_id_text)
+            save_state(state)
+            send_telegram_message(
+                "收到，马上给你推送一组新的意大利语内容。",
+                chat_id=chat_id_text,
+            )
+            send_daily_lesson(chat_id=chat_id_text)
+            print("收到 1，已发送新的意大利语学习内容。")
 
     latest_state = load_state()
     if "last_update_id" in state:
@@ -241,10 +251,10 @@ def main() -> None:
         replace_existing=True,
     )
     scheduler.add_job(
-        poll_start_messages,
+        poll_telegram_messages,
         "interval",
         seconds=5,
-        id="telegram_start_listener",
+        id="telegram_message_listener",
         max_instances=1,
         coalesce=True,
         replace_existing=True,
@@ -252,6 +262,7 @@ def main() -> None:
 
     print(f"Scheduler started. Daily push time: 09:00 ({TIMEZONE})")
     print("Send /start to your Telegram bot to receive a test push.")
+    print("Send 1 to receive a new Italian lesson immediately.")
     scheduler.start()
 
 
